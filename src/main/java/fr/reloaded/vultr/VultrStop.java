@@ -33,7 +33,6 @@ public class VultrStop extends JavaPlugin {
                     break;
                 }
             }
-            System.out.println(LOG_PREFIX + "Server stopped.");
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

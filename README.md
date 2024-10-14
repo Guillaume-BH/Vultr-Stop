@@ -6,10 +6,9 @@ This is a plugin to stop your Vultr instance when the server is stopping.
 
 To use this plugin, you need to edit the `config.yml` file in the plugin folder.
 
-Replace the `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` with your AWS Access Key ID and Secret Access Key.
+Replace the `VULTR_API_KEY` with your Vultr API Key.
 
 `config.yml`
 ```yaml
-AWS_ACCESS_KEY_ID: "" # Your AWS Access Key ID
-AWS_SECRET_ACCESS_KEY: "" # Your AWS Secret Access Key
+VULTR_API_KEY: "" # Your Vultr API Key
 ```
